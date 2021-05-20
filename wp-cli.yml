@@ -5,7 +5,7 @@ server:
 @development:
   ssh: root@localhost:/code/pastamiawest/web
 @staging:
-  ssh: forge@:/home/forge//web
+  ssh: forge@142.93.92.99:/home/forge/pastamiawest.neonhosting.net/web
 @production:
-  ssh: forge@143.198.72.14:/home/forge/pastamiawest.com/web
+  ssh: forge@159.89.135.228:/home/forge/pastamiawest.com/web
 

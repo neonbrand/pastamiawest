@@ -1,0 +1,74 @@
+.swiper,
+.swiper-container.swiper-container-horizontal .swiper{
+	&-pagination {
+		position: absolute;
+		bottom: 30px;
+		.posts-list:not(.posts-list--default) .post-gallery &,
+		.posts-list--default.featured-image--small .post-gallery &{
+			position: absolute;
+			bottom: 15px;
+		}
+		.widget-carousel &,
+		.tm_pb_swiper & {
+			position: static;
+		}
+		&-bullet {
+			width: 14px;
+			height: 14px;
+			opacity: 1;
+			transition: .3s;
+			margin: 0 8px;
+		}
+	}
+	&-button-next,
+	&-button-prev {
+		top: 50%;
+		background-image: none !important;
+		text-align: center;
+
+		width: 44px;
+		height: 44px;
+		margin: -22px 0 0 0;
+		transition: .3s;
+
+		i {
+			font-size: 20px;
+			line-height: 44px;
+		}
+		.widget-carousel &,
+		.post-gallery & {
+			display: none;
+		}
+
+		&.swiper-button-disabled {
+			pointer-events: auto;
+		}
+		&:not(.swiper-button-disabled):hover {
+			box-shadow: none;
+		}
+	}
+	&-button-next {
+		right: 0;
+
+		.format-gallery & {
+			right: 15px;
+		}
+
+		@include border-left-radius($border__radius);
+		&:not(.swiper-button-disabled):hover {
+
+		}
+	}
+	&-button-prev {
+		left: 0;
+
+		.format-gallery & {
+			left: 15px;
+		}
+
+		@include border-right-radius($border__radius);
+		&:not(.swiper-button-disabled):hover {
+
+		}
+	}
+}

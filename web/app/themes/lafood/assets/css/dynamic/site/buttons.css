@@ -1,0 +1,60 @@
+/* #Button Appearance Styles (regular scheme) */
+.btn,
+.btn-primary,
+.btn-default{
+	color: $invert_accent_color_1;
+	border-color: $regular_accent_color_1;
+	background: $regular_accent_color_1;
+}
+.btn:hover,
+.btn-primary:hover,
+.btn-default:hover{
+	color: $regular_accent_color_1;
+	background-color: transparent;
+	border-color: $regular_accent_color_1;
+}
+.btn:active,
+.btn-primary:active,
+.btn-default:active{
+
+}
+.btn-secondary {
+	color: $invert_accent_color_2;
+}
+.btn-secondary:hover {
+	background-color: $regular_accent_color_2;
+	border-color: $regular_accent_color_2;
+}
+.btn-secondary:active {
+	box-shadow: 0 0 10px $regular_accent_color_2;
+}
+
+/* #Button Appearance Styles (invert scheme) */
+.invert .btn,
+.invert .btn-primary,
+.invert .btn-default {
+	color: $invert_accent_color_1;
+}
+.invert .btn:hover,
+.invert .btn-primary:hover,
+.invert .btn-default:hover {
+	background-color: @alpha( $regular_accent_color_1, 0 );
+	border-color: $invert_text_color;
+	color: $invert_text_color;
+}
+.invert .btn:active,
+.invert .btn-primary:active,
+.invert .btn-default:active {
+	box-shadow: 0 0 10px $invert_accent_color_1;
+}
+.invert .btn-secondary{
+	color: $invert_accent_color_2;
+}
+.invert .btn-secondary:hover{
+	color: $regular_accent_color_2;
+	background-color: $invert_accent_color_2;
+	border-color: $invert_accent_color_2;
+}
+.invert .btn-secondary:active {
+	box-shadow: 0 0 10px $invert_accent_color_2;
+}

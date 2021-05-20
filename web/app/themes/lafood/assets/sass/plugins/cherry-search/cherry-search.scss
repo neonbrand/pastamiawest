@@ -1,0 +1,14 @@
+.site-header {
+	.cherry-search {
+			position: inherit;
+	}
+	.cherry-search-wrapper {
+		.cherry-search__results-list {
+			left: 0;
+		}
+	}
+}
+
+.cherry-search__message.show {
+	@include font-size(.875);
+}

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8df16d6a518dc24eb1581b3fc07e753b",
+    "content-hash": "48d340c137a22f79d1c28b2e32a9a06d",
     "packages": [
         {
             "name": "composer/installers",
@@ -136,6 +136,10 @@
                 "zend",
                 "zikula"
             ],
+            "support": {
+                "issues": "https://github.com/composer/installers/issues",
+                "source": "https://github.com/composer/installers/tree/v1.11.0"
+            },
             "funding": [
                 {
                     "url": "https://packagist.com",
@@ -297,6 +301,10 @@
                 "Result-Type",
                 "result"
             ],
+            "support": {
+                "issues": "https://github.com/GrahamCampbell/Result-Type/issues",
+                "source": "https://github.com/GrahamCampbell/Result-Type/tree/v1.0.1"
+            },
             "funding": [
                 {
                     "url": "https://github.com/GrahamCampbell",
@@ -310,23 +318,23 @@
             "time": "2020-04-13T13:17:36+00:00"
         },
         {
-            "name": "neonbrand/advanced-custom-fields-pro",
-            "version": "5.9.5",
+            "name": "neonbrand/booked",
+            "version": "2.2.6",
             "dist": {
                 "type": "zip",
-                "url": "https://mainwp.neonbrand.com/satispress/advanced-custom-fields-pro/5.9.5",
-                "shasum": "89fe97cf6e087a3eef5485db6e83a83f63e5edbf"
+                "url": "https://mainwp.neonbrand.com/satispress/booked/2.2.6",
+                "shasum": "114b4b06c039b5d594b0003d2edd88cf0edb2eb7"
             },
             "require": {
                 "composer/installers": "^1.0"
             },
             "type": "wordpress-plugin",
             "authors": {
-                "name": "Elliot Condon",
-                "homepage": "https://www.advancedcustomfields.com"
+                "name": "Boxy Studio",
+                "homepage": "https://boxystudio.com"
             },
-            "description": "Customize WordPress with powerful, professional and intuitive fields.",
-            "homepage": "https://www.advancedcustomfields.com"
+            "description": "Powerful appointment booking made simple.",
+            "homepage": "https://getbooked.io"
         },
         {
             "name": "neonbrand/cf-loader",
@@ -346,44 +354,6 @@
             },
             "description": "Load the Core Functionality plugin",
             "homepage": "https://mainwp.neonbrand.com/"
-        },
-        {
-            "name": "neonbrand/genesis",
-            "version": "3.3.3",
-            "dist": {
-                "type": "zip",
-                "url": "https://mainwp.neonbrand.com/satispress/genesis/3.3.3",
-                "shasum": "5ec57452b2daa821f1d2ad80946beb95dfdad22f"
-            },
-            "require": {
-                "composer/installers": "^1.0"
-            },
-            "type": "wordpress-theme",
-            "authors": {
-                "name": "StudioPress",
-                "homepage": "https://www.studiopress.com/"
-            },
-            "description": "The industry standard for Premium WordPress Themes.",
-            "homepage": "https://my.studiopress.com/themes/genesis/"
-        },
-        {
-            "name": "neonbrand/google-analytics-premium",
-            "version": "7.15.1",
-            "dist": {
-                "type": "zip",
-                "url": "https://mainwp.neonbrand.com/satispress/google-analytics-premium/7.15.1",
-                "shasum": "22562a0d08ce9263edc819a33512d91df45286f0"
-            },
-            "require": {
-                "composer/installers": "^1.0"
-            },
-            "type": "wordpress-plugin",
-            "authors": {
-                "name": "MonsterInsights",
-                "homepage": "https://www.monsterinsights.com/?utm_source=proplugin&#038;utm_medium=pluginheader&#038;utm_campaign=authoruri&#038;utm_content=7%2E0%2E0"
-            },
-            "description": "The best Google Analytics plugin for WordPress. See how visitors find and use your website, so you can keep them coming back.",
-            "homepage": "https://www.monsterinsights.com/?utm_source=proplugin&utm_medium=pluginheader&utm_campaign=pluginurl&utm_content=7%2E0%2E0"
         },
         {
             "name": "neonbrand/gravityforms",
@@ -462,99 +432,61 @@
             "homepage": "https://meowapps.com"
         },
         {
-            "name": "neonbrand/monsterinsights-dimensions",
-            "version": "1.3.2",
+            "name": "neonbrand/power-builder",
+            "version": "1.3.1",
             "dist": {
                 "type": "zip",
-                "url": "https://mainwp.neonbrand.com/satispress/monsterinsights-dimensions/1.3.2",
-                "shasum": "7370a5000e39ccf612106a91e36784bb96b0c5b2"
+                "url": "https://mainwp.neonbrand.com/satispress/power-builder/1.3.1",
+                "shasum": "13424a4d2e5571b44314b0c2a0586fb05ce18640"
             },
             "require": {
                 "composer/installers": "^1.0"
             },
             "type": "wordpress-plugin",
             "authors": {
-                "name": "MonsterInsights Team",
-                "homepage": "https://www.monsterinsights.com"
+                "name": "TemplateMonster",
+                "homepage": "http://templatemonster.com/"
             },
-            "description": "Adds custom dimension tracking options to MonsterInsights",
-            "homepage": "https://www.monsterinsights.com"
+            "description": "A drag and drop page builder for any WordPress theme.",
+            "homepage": "https://github.com/templatemonster/power-builder"
         },
         {
-            "name": "neonbrand/monsterinsights-forms",
-            "version": "1.5.3",
+            "name": "neonbrand/power-builder-integrator",
+            "version": "1.0.13",
             "dist": {
                 "type": "zip",
-                "url": "https://mainwp.neonbrand.com/satispress/monsterinsights-forms/1.5.3",
-                "shasum": "e21e759a9a2f15c260091a49ca1d68c33c4a7167"
+                "url": "https://mainwp.neonbrand.com/satispress/power-builder-integrator/1.0.13",
+                "shasum": "49845767c75d7bf51472a5008dc88b22d7451d43"
             },
             "require": {
                 "composer/installers": "^1.0"
             },
             "type": "wordpress-plugin",
             "authors": {
-                "name": "MonsterInsights Team",
-                "homepage": "https://www.monsterinsights.com"
+                "name": "Template Monster",
+                "homepage": "http://www.templatemonster.com/"
             },
-            "description": "Adds Form Tracking to MonsterInsights.",
-            "homepage": "https://www.monsterinsights.com"
+            "description": "Helps to integrate 3rd party plugins into Power Builder",
+            "homepage": "https://github.com/templatemonster/power-builder-integrator"
         },
         {
-            "name": "neonbrand/monsterinsights-page-insights",
-            "version": "1.3.3",
+            "name": "neonbrand/tm-wizard",
+            "version": "1.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://mainwp.neonbrand.com/satispress/monsterinsights-page-insights/1.3.3",
-                "shasum": "a3cd57f74c0bb17d51caea778ba5e2b186449684"
+                "url": "https://mainwp.neonbrand.com/satispress/tm-wizard/1.1.0",
+                "shasum": "ad8990118a3eb2ea025d6c5fe56a941d831dac0f"
             },
             "require": {
                 "composer/installers": "^1.0"
             },
             "type": "wordpress-plugin",
             "authors": {
-                "name": "MonsterInsights Team",
-                "homepage": "https://www.monsterinsights.com"
+                "name": "TemplateMonster",
+                "homepage": "http://www.templatemonster.com/wordpress-themes.php"
             },
-            "description": "Adds individual page insights directly in the WordPress admin.",
-            "homepage": "https://www.monsterinsights.com"
-        },
-        {
-            "name": "neonbrand/searchwp",
-            "version": "4.1.13",
-            "dist": {
-                "type": "zip",
-                "url": "https://mainwp.neonbrand.com/satispress/searchwp/4.1.13",
-                "shasum": "9abb7076b6734434100483de9b1aefb4f4944b00"
-            },
-            "require": {
-                "composer/installers": "^1.0"
-            },
-            "type": "wordpress-plugin",
-            "authors": {
-                "name": "SearchWP",
-                "homepage": "https://searchwp.com/"
-            },
-            "description": "The best WordPress search you can find",
-            "homepage": "https://searchwp.com/"
-        },
-        {
-            "name": "neonbrand/wordpress-seo-premium",
-            "version": "16.3",
-            "dist": {
-                "type": "zip",
-                "url": "https://mainwp.neonbrand.com/satispress/wordpress-seo-premium/16.3",
-                "shasum": "95fb7284520e25673f66cd920d9a5770a3b501d0"
-            },
-            "require": {
-                "composer/installers": "^1.0"
-            },
-            "type": "wordpress-plugin",
-            "authors": {
-                "name": "Team Yoast",
-                "homepage": "https://yoa.st/2jc"
-            },
-            "description": "The first true all-in-one SEO solution for WordPress, including on-page content analysis, XML sitemaps and much more.",
-            "homepage": "https://yoa.st/2jc"
+            "description": "Plugins installation wizard.",
+            "homepage": "http://www.templatemonster.com/wordpress-themes.php"
         },
         {
             "name": "neonbrand/wp-rocket",
@@ -642,6 +574,11 @@
             "keywords": [
                 "env"
             ],
+            "support": {
+                "email": "oom@oscarotero.com",
+                "issues": "https://github.com/oscarotero/env/issues",
+                "source": "https://github.com/oscarotero/env/tree/v2.1.0"
+            },
             "time": "2020-06-11T10:59:27+00:00"
         },
         {
@@ -697,6 +634,10 @@
                 "php",
                 "type"
             ],
+            "support": {
+                "issues": "https://github.com/schmittjoh/php-option/issues",
+                "source": "https://github.com/schmittjoh/php-option/tree/1.7.5"
+            },
             "funding": [
                 {
                     "url": "https://github.com/GrahamCampbell",
@@ -852,6 +793,11 @@
                 "plugin",
                 "wordpress"
             ],
+            "support": {
+                "forum": "https://discourse.roots.io/",
+                "issues": "https://github.com/roots/bedrock-autoloader/issues",
+                "source": "https://github.com/roots/bedrock-autoloader/tree/1.0.4"
+            },
             "funding": [
                 {
                     "url": "https://github.com/roots",
@@ -1051,6 +997,10 @@
             "keywords": [
                 "wordpress"
             ],
+            "support": {
+                "issues": "https://github.com/roots/wordpress-core-installer/issues",
+                "source": "https://github.com/roots/wordpress-core-installer/tree/master"
+            },
             "funding": [
                 {
                     "url": "https://github.com/roots",
@@ -1103,6 +1053,10 @@
                 }
             ],
             "description": "Collect configuration values and safely define() them",
+            "support": {
+                "issues": "https://github.com/roots/wp-config/issues",
+                "source": "https://github.com/roots/wp-config/tree/master"
+            },
             "time": "2018-08-10T14:18:38+00:00"
         },
         {
@@ -1160,11 +1114,16 @@
             "keywords": [
                 "wordpress wp bcrypt password"
             ],
+            "support": {
+                "forum": "https://discourse.roots.io/",
+                "issues": "https://github.com/roots/wp-password-bcrypt/issues",
+                "source": "https://github.com/roots/wp-password-bcrypt/tree/master"
+            },
             "time": "2016-03-01T16:27:06+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.22.0",
+            "version": "v1.22.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
@@ -1222,6 +1181,9 @@
                 "polyfill",
                 "portable"
             ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.22.1"
+            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -1240,16 +1202,16 @@
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.22.0",
+            "version": "v1.22.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "f377a3dd1fde44d37b9831d68dc8dea3ffd28e13"
+                "reference": "5232de97ee3b75b0360528dae24e73db49566ab1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/f377a3dd1fde44d37b9831d68dc8dea3ffd28e13",
-                "reference": "f377a3dd1fde44d37b9831d68dc8dea3ffd28e13",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/5232de97ee3b75b0360528dae24e73db49566ab1",
+                "reference": "5232de97ee3b75b0360528dae24e73db49566ab1",
                 "shasum": ""
             },
             "require": {
@@ -1299,6 +1261,9 @@
                 "portable",
                 "shim"
             ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.22.1"
+            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -1313,11 +1278,11 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-01-07T16:49:33+00:00"
+            "time": "2021-01-22T09:19:47+00:00"
         },
         {
             "name": "symfony/polyfill-php80",
-            "version": "v1.22.0",
+            "version": "v1.22.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php80.git",
@@ -1379,6 +1344,9 @@
                 "portable",
                 "shim"
             ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-php80/tree/v1.22.1"
+            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -1530,6 +1498,10 @@
                 "env",
                 "environment"
             ],
+            "support": {
+                "issues": "https://github.com/vlucas/phpdotenv/issues",
+                "source": "https://github.com/vlucas/phpdotenv/tree/v5.3.0"
+            },
             "funding": [
                 {
                     "url": "https://github.com/GrahamCampbell",
@@ -1559,6 +1531,114 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/better-search-replace/"
+        },
+        {
+            "name": "wpackagist-plugin/classic-editor",
+            "version": "1.6",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/classic-editor/",
+                "reference": "tags/1.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/classic-editor.1.6.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/classic-editor/"
+        },
+        {
+            "name": "wpackagist-plugin/coblocks",
+            "version": "2.11.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/coblocks/",
+                "reference": "tags/2.11.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/coblocks.2.11.1.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/coblocks/"
+        },
+        {
+            "name": "wpackagist-plugin/contact-form-7",
+            "version": "5.4.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/contact-form-7/",
+                "reference": "tags/5.4.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/contact-form-7.5.4.1.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/contact-form-7/"
+        },
+        {
+            "name": "wpackagist-plugin/contact-form-7-image-captcha",
+            "version": "3.2.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/contact-form-7-image-captcha/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/contact-form-7-image-captcha.zip?timestamp=1615813685"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/contact-form-7-image-captcha/"
+        },
+        {
+            "name": "wpackagist-plugin/contact-form-submissions",
+            "version": "1.7.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/contact-form-submissions/",
+                "reference": "tags/1.7.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/contact-form-submissions.1.7.1.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/contact-form-submissions/"
+        },
+        {
+            "name": "wpackagist-plugin/contact-widgets",
+            "version": "1.7.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/contact-widgets/",
+                "reference": "tags/1.7.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/contact-widgets.1.7.0.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/contact-widgets/"
         },
         {
             "name": "wpackagist-plugin/duplicate-post",
@@ -1597,6 +1677,60 @@
             "homepage": "https://wordpress.org/plugins/duracelltomi-google-tag-manager/"
         },
         {
+            "name": "wpackagist-plugin/go-live-update-urls",
+            "version": "6.3.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/go-live-update-urls/",
+                "reference": "tags/6.3.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/go-live-update-urls.6.3.2.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/go-live-update-urls/"
+        },
+        {
+            "name": "wpackagist-plugin/google-analytics-for-wordpress",
+            "version": "7.17.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/google-analytics-for-wordpress/",
+                "reference": "tags/7.17.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.7.17.0.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/google-analytics-for-wordpress/"
+        },
+        {
+            "name": "wpackagist-plugin/header-footer-code-manager",
+            "version": "1.1.10",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/header-footer-code-manager/",
+                "reference": "tags/1.1.10"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/header-footer-code-manager.1.1.10.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/header-footer-code-manager/"
+        },
+        {
             "name": "wpackagist-plugin/imagify",
             "version": "1.9.14",
             "source": {
@@ -1613,6 +1747,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/imagify/"
+        },
+        {
+            "name": "wpackagist-plugin/limit-login-attempts-reloaded",
+            "version": "2.22.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/limit-login-attempts-reloaded/",
+                "reference": "tags/2.22.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/limit-login-attempts-reloaded.2.22.1.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/limit-login-attempts-reloaded/"
         },
         {
             "name": "wpackagist-plugin/mailgun",
@@ -1649,6 +1801,42 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/mainwp-child/"
+        },
+        {
+            "name": "wpackagist-plugin/mobile-call-now-map-buttons",
+            "version": "1.5.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/mobile-call-now-map-buttons/",
+                "reference": "tags/1.5.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/mobile-call-now-map-buttons.1.5.0.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/mobile-call-now-map-buttons/"
+        },
+        {
+            "name": "wpackagist-plugin/mp-restaurant-menu",
+            "version": "2.4.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/mp-restaurant-menu/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/mp-restaurant-menu.zip?timestamp=1617013825"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/mp-restaurant-menu/"
         },
         {
             "name": "wpackagist-plugin/official-facebook-pixel",
@@ -1759,6 +1947,42 @@
             "homepage": "https://wordpress.org/plugins/simple-sitemap/"
         },
         {
+            "name": "wpackagist-plugin/wordpress-seo",
+            "version": "16.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
+                "reference": "tags/16.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.16.3.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wordpress-seo/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-add-custom-css",
+            "version": "1.1.6",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-add-custom-css/",
+                "reference": "tags/1.1.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-add-custom-css.1.1.6.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-add-custom-css/"
+        },
+        {
             "name": "wpackagist-plugin/wp-term-order",
             "version": "1.0.0",
             "source": {
@@ -1856,12 +2080,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "62148111d4ef79d664b0da42729ce5e0705ad4aa"
+                "reference": "6e52ab3a11a0d4fb0d9b2fb199a5887b8e01b1ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/62148111d4ef79d664b0da42729ce5e0705ad4aa",
-                "reference": "62148111d4ef79d664b0da42729ce5e0705ad4aa",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/6e52ab3a11a0d4fb0d9b2fb199a5887b8e01b1ae",
+                "reference": "6e52ab3a11a0d4fb0d9b2fb199a5887b8e01b1ae",
                 "shasum": ""
             },
             "conflict": {
@@ -2191,6 +2415,10 @@
                 }
             ],
             "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
+            "support": {
+                "issues": "https://github.com/Roave/SecurityAdvisories/issues",
+                "source": "https://github.com/Roave/SecurityAdvisories/tree/latest"
+            },
             "funding": [
                 {
                     "url": "https://github.com/Ocramius",
@@ -2201,7 +2429,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-05-19T23:05:50+00:00"
+            "time": "2021-05-20T18:43:44+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
@@ -2252,6 +2480,11 @@
                 "phpcs",
                 "standards"
             ],
+            "support": {
+                "issues": "https://github.com/squizlabs/PHP_CodeSniffer/issues",
+                "source": "https://github.com/squizlabs/PHP_CodeSniffer",
+                "wiki": "https://github.com/squizlabs/PHP_CodeSniffer/wiki"
+            },
             "time": "2021-04-09T00:54:41+00:00"
         }
     ],

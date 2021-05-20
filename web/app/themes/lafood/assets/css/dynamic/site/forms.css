@@ -1,0 +1,135 @@
+/* #Fields */
+input[type='text'],
+input[type='email'],
+input[type='url'],
+input[type='password'],
+input[type='search'],
+input[type='number'],
+input[type='tel'],
+input[type='range'],
+input[type='date'],
+input[type='month'],
+input[type='week'],
+input[type='time'],
+input[type='datetime'],
+input[type='datetime-local'],
+input[type='color'],
+select,
+textarea {
+	color: $regular_text_color;
+}
+
+.invert input[type='text'],
+.invert input[type='email'],
+.invert input[type='url'],
+.invert input[type='password'],
+.invert input[type='search'],
+.invert input[type='number'],
+.invert input[type='tel'],
+.invert input[type='range'],
+.invert input[type='date'],
+.invert input[type='month'],
+.invert input[type='week'],
+.invert input[type='time'],
+.invert input[type='datetime'],
+.invert input[type='datetime-local'],
+.invert input[type='color'],
+.invert select,
+.invert textarea {
+	border-color: $invert_accent_color_1;
+	color: $invert_accent_color_1;
+}
+
+/* #Search Form */
+.search-form__field {
+	color: $regular_text_color;
+}
+
+.search-form__toggle,
+.search-form__close {
+	color: @lighten($regular_text_color, 25%);
+}
+.search-form__toggle:hover,
+.search-form__close:hover {
+	color: $regular_link_color;
+}
+.invert .search-form__toggle,
+.invert .search-form__close {
+	color: $invert_text_color;
+}
+.invert .search-form__toggle:hover,
+.invert .search-form__close:hover {
+	color: $invert_link_hover_color;
+}
+
+.top-panel .search-form__submit,
+.header-container .search-form__submit,
+.mobile-panel .search-form__submit {
+	color: $regular_link_hover_color;
+}
+.top-panel .search-form__submit:hover,
+.header-container .search-form__submit:hover,
+.mobile-panel .search-form__submit:hover {
+	color: $regular_link_color;
+}
+.top-panel.invert .search-form__submit,
+.header-container.invert .search-form__submit,
+.mobile-panel.invert .search-form__submit{
+	color: $invert_link_color;
+}
+.top-panel.invert .search-form__submit:hover,
+.header-container.invert .search-form__submit:hover,
+.mobile-panel.invert .search-form__submit:hover{
+	color: $invert_link_hover_color;
+}
+
+.top-panel.invert .search-form__field {	color: $invert_text_color; }
+.top-panel.invert .search-form__field::-webkit-input-placeholder { color: $invert_text_color; }
+.top-panel.invert .search-form__field::-moz-placeholder { color: $invert_text_color; }
+.top-panel.invert .search-form__field:-moz-placeholder { color: $invert_text_color; }
+.top-panel.invert .search-form__field:-ms-input-placeholder { color: $invert_text_color; }
+
+.header-container.invert .search-form__field {	color: $invert_text_color; }
+.header-container.invert .search-form__field::-webkit-input-placeholder { color: $invert_text_color; }
+.header-container.invert .search-form__field::-moz-placeholder { color: $invert_text_color; }
+.header-container.invert .search-form__field:-moz-placeholder { color: $invert_text_color; }
+.header-container.invert .search-form__field:-ms-input-placeholder { color: $invert_text_color; }
+
+/* #Comment, Contact, Password Forms */
+.comment-form .submit,
+.wpcf7-submit,
+.post-password-form label + input {
+	color: $invert_accent_color_1;
+	background-color: $regular_accent_color_1;
+	border-color: $regular_accent_color_1;
+}
+.comment-form .submit:hover,
+.wpcf7-submit:hover,
+.post-password-form label + input:hover {
+	color: $regular_accent_color_1;
+	background-color: @alpha( $regular_accent_color_1, 0 );
+}
+.comment-form .submit:active,
+.wpcf7-submit:active,
+.post-password-form label + input:active {
+	box-shadow: 0 0 10px $regular_accent_color_1;
+}
+
+/* #Cherry Search */
+.cherry-search__results-item a,
+.invert .cherry-search__results-item a,
+.cherry-search__message.show,
+.invert .cherry-search__message.show {
+	color: $regular_text_color;
+}
+
+/* #Input Placeholders */
+::-webkit-input-placeholder { color: $regular_text_color; }
+::-moz-placeholder          { color: $regular_text_color; }
+:-moz-placeholder           { color: $regular_text_color; }
+:-ms-input-placeholder      { color: $regular_text_color; }
+
+.invert ::-webkit-input-placeholder { color: $invert_accent_color_1; }
+.invert ::-moz-placeholder          { color: $invert_accent_color_1; }
+.invert :-moz-placeholder           { color: $invert_accent_color_1; }
+.invert :-ms-input-placeholder      { color: $invert_accent_color_1; }

@@ -1,0 +1,20 @@
+[10-Nov-2019 23:38:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function have_posts() in /home/z2ppqu9ooqza/public_html/pastamiawest.com/wp-content/themes/lafood/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/z2ppqu9ooqza/public_html/pastamiawest.com/wp-content/themes/lafood/index.php on line 15
+[16-Mar-2020 08:05:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function have_posts() in /home/z2ppqu9ooqza/public_html/pastamiawest.com/wp-content/themes/lafood/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/z2ppqu9ooqza/public_html/pastamiawest.com/wp-content/themes/lafood/index.php on line 15
+[24-Apr-2020 23:02:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function have_posts() in /home/z2ppqu9ooqza/public_html/pastamiawest.com/wp-content/themes/lafood/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/z2ppqu9ooqza/public_html/pastamiawest.com/wp-content/themes/lafood/index.php on line 15
+[29-Apr-2020 07:11:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function have_posts() in /home/z2ppqu9ooqza/public_html/pastamiawest.com/wp-content/themes/lafood/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/z2ppqu9ooqza/public_html/pastamiawest.com/wp-content/themes/lafood/index.php on line 15
+[07-May-2020 21:38:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function have_posts() in /home/z2ppqu9ooqza/public_html/pastamiawest.com/wp-content/themes/lafood/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/z2ppqu9ooqza/public_html/pastamiawest.com/wp-content/themes/lafood/index.php on line 15

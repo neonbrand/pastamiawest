@@ -1,0 +1,50 @@
+button,
+input[type='button'],
+input[type='reset'],
+input[type='submit'] {
+	@include btn;
+}
+
+// General styles
+.btn {
+	text-decoration: none;
+	@include btn;
+	@include btn-hover;
+
+	&:hover {
+		text-decoration: none;
+	}
+	&:active {
+		outline: 0;
+		box-shadow: 0 0 10px;
+	}
+	&-fullwidth {
+		width: 100%;
+	}
+}
+
+.btn,
+.btn-default,
+.btn-primary,
+.btn-secondary{
+	background-color: transparent;
+	&:hover,
+	.invert &:hover {
+		box-shadow: none;
+	}
+}
+
+.link {
+	display: inline-block;
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+	@include font-size(1);
+	line-height: 1.25;
+	font-weight: 400;
+
+	i {
+		font-size: 14px;
+		line-height: 20px;
+		margin-left: 5px;
+	}
+}

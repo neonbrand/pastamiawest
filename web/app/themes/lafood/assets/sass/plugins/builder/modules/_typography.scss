@@ -1,0 +1,42 @@
+#tm_builder_outer_content .tm_pb_module {
+	ul:not([class]) {
+		list-style: none;
+		margin: 0 0 1.5em 0;
+		&:last-child {
+			margin-bottom: 0;
+		}
+		li {
+			list-style: inherit;
+
+			& + li,
+			> ul li,
+			> ol li {
+				margin-top: 2px;
+			}
+		}
+
+		> li{
+			&:before {
+				content: '•';
+				margin-right: 10px;
+			}
+		}
+	}
+	ol, ul:not([class]) {
+		li > ul:not([class]),
+		li > ol {
+			margin-bottom: 0;
+			margin-left: 1.1em;
+		}
+	}
+}
+
+hr {
+	.tm_pb_text_align_center & {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.tm_pb_text_align_right & {
+		margin-left: auto;
+	}
+}

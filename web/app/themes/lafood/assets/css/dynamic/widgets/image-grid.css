@@ -1,0 +1,24 @@
+.invert .widget-image-grid__content::before{
+	background-color: $regular_accent_color_1;
+}
+.widget-image-grid__terms,
+.widget-image-grid__author,
+.widget-image-grid__date {
+	font-style: $meta_font_style;
+	font-weight: $meta_font_weight;
+	font-size: $meta_font_size{px};
+	line-height: $meta_line_height;
+	font-family: @font_family( $meta_font_family );
+	letter-spacing: $meta_letter_spacing{em};
+}
+
+.invert .widget-image-grid__author,
+.invert .widget-image-grid__author a,
+.invert .widget-image-grid__terms,
+.invert .widget-image-grid__terms a {
+	color: $invert_link_hover_color;
+}
+.invert .widget-image-grid__terms a:hover,
+.invert .widget-image-grid__author a:hover{
+	color: $invert_link_color;
+}

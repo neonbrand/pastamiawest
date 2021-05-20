@@ -2,7 +2,10 @@ path: web/wp
 server:
   docroot: web
 
+@development:
+  ssh: root@localhost:/code/pastamiawest/web
 @staging:
-  ssh: forge@123.456.789.10:/home/forge/www.staging.url/web
+  ssh: forge@:/home/forge//web
 @production:
-  ssh: forge@987.654.432.10:/home/forge/www.production.url/web
+  ssh: forge@143.198.72.14:/home/forge/pastamiawest.com/web
+

@@ -1,0 +1,16 @@
+#tm_builder_outer_content .tm_pb_promo {
+	color: $invert_text_color;
+}
+#tm_builder_outer_content .tm_pb_promo h2{
+	font-style: $h1_font_style;
+	font-weight: $h1_font_weight;
+	font-size: @font_size($h1_font_size, multiple, ceil, 0.57)px;
+	line-height: $h1_line_height;
+	font-family: @font_family( $h1_font_family );
+	letter-spacing: $h1_letter_spacing{em};
+	text-align: $h1_text_align;
+	color: $invert_h1_color;
+}
+@media (min-width: 992px) {
+	#tm_builder_outer_content .tm_pb_promo h2 { font-size: $h1_font_size{px}; }
+}

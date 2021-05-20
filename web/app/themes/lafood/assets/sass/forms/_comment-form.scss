@@ -1,0 +1,45 @@
+.comment {
+	&-respond {
+		.comment-list + &{
+			padding-top: 60px;
+			border-top: 1px solid $color__background-hr;
+		}
+		.comment-list & {
+			margin-top: 60px;
+			margin-bottom: 60px;
+		}
+	}
+	&-reply-title {
+		margin-bottom: 30px;
+
+		#cancel-comment-reply-link {
+			float: right;
+			line-height: 1.5;
+			letter-spacing: 2.5px;
+			text-transform: uppercase;
+			margin: 16px 0 16px 10px;
+			@include font-size(1);
+		}
+	}
+	&-form {
+		&-comment,
+		&-author,
+		&-email,
+		&-url {
+			position: relative;
+			margin: 0 0 16px 0;
+		}
+		.form-submit {
+			margin: 40px 0 0 0;
+		}
+		&__field {
+			width: 100%;
+			vertical-align: top;
+			border-radius: 25px;
+		}
+		.logged-in-as,
+		.comment-notes {
+			margin: 0 0 20px;
+		}
+	}
+}
